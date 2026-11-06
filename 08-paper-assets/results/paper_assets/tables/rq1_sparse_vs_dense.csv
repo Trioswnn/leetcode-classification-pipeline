@@ -1,0 +1,4 @@
+task,sparse,dense_best,CV_sparse,CV_dense,test_sparse,test_dense,delta_test
+topic,TF-IDF x LogReg,bge-small x MLP,0.5979,0.5816,0.6234,0.5982,0.0252
+difficulty,TF-IDF x RF,CodeBERT x MLP,0.5113,0.5251,0.5048,0.5031,0.0017
+difficulty,TF-IDF+digits x LogReg,CodeBERT x MLP,0.5441,0.5251,0.5395,0.5031,0.0364

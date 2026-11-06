@@ -1,0 +1,19 @@
+rep,model,best_params
+TF-IDF,LogReg,C=1.0
+TF-IDF,RF,"n_estimators=400, max_depth=40, min_samples_leaf=2, max_features=sqrt"
+TF-IDF,MLP,"lr=0.0003, weight_decay=0.01, epochs=30"
+GloVe,LogReg,C=1.0
+GloVe,RF,"n_estimators=400, max_depth=40, min_samples_leaf=2, max_features=sqrt"
+GloVe,MLP,"lr=0.0003, weight_decay=0.01, epochs=30"
+FastText,LogReg,C=1.0
+FastText,RF,"n_estimators=400, max_depth=None, min_samples_leaf=2, max_features=0.2"
+FastText,MLP,"lr=0.0003, weight_decay=0.01, epochs=30"
+bge-small,LogReg,C=0.1
+bge-small,RF,"n_estimators=400, max_depth=None, min_samples_leaf=2, max_features=0.2"
+bge-small,MLP,"lr=0.0003, weight_decay=0.01, epochs=60"
+CodeBERT,LogReg,C=0.1
+CodeBERT,RF,"n_estimators=400, max_depth=None, min_samples_leaf=2, max_features=0.2"
+CodeBERT,MLP,"lr=0.0003, weight_decay=0.01, epochs=60"
+TF-IDF+digits,LogReg,C=1.0
+TF-IDF+digits,RF,"n_estimators=400, max_depth=40, min_samples_leaf=2, max_features=sqrt"
+TF-IDF+digits,MLP,"lr=0.0003, weight_decay=0.01, epochs=60"

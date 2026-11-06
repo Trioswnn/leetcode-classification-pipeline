@@ -1,0 +1,24 @@
+{
+  "n_rows": 3256,
+  "dim": 300,
+  "text_view": "text_clean (lowercase, letters only, stopwords removed)",
+  "pooling": "mean over token vectors; GloVe skips OOV tokens (zero vector if none), FastText uses subword vectors for all tokens",
+  "glove_file": "glove.6B.300d.txt",
+  "fasttext_file": "cc.en.300.bin",
+  "oov": {
+    "glove": {
+      "token_oov_rate_%": 7.52,
+      "type_oov_rate_%": 24.55,
+      "docs_all_oov": 0,
+      "doc_oov_mean_%": 8.07,
+      "doc_oov_max_%": 72.73
+    },
+    "fasttext_word_vocab": {
+      "token_oov_rate_%": 2.79,
+      "type_oov_rate_%": 21.71,
+      "docs_all_oov": 0,
+      "doc_oov_mean_%": 2.32,
+      "doc_oov_max_%": 53.97
+    }
+  }
+}

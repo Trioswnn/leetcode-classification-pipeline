@@ -1,0 +1,23 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Lingkungan Virtual (jika ada)
+venv/
+env/
+.env
+
+# Abaikan file embedding / array besar
+*.npy
+
+# Abaikan folder output Jupyter yang tidak perlu
+*__results___files/
+__huggingface_repos__.json
+
+# (Opsional) Uncomment baris di bawah ini jika file CSV Anda > 100 MB
+# *.csv

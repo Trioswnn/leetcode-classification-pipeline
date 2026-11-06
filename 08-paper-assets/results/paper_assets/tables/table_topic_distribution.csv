@@ -1,0 +1,16 @@
+Topic,All,Train,Test,Prevalence (%)
+array,1909,1527,382,58.6
+string,767,613,154,23.6
+hash_table,703,562,141,21.6
+math,609,487,122,18.7
+dynamic_programming,594,475,119,18.2
+sorting,459,367,92,14.1
+greedy,432,346,86,13.3
+binary_search,297,237,60,9.1
+depth_first_search,263,211,52,8.1
+bit_manipulation,259,207,52,8.0
+prefix_sum,243,194,49,7.5
+matrix,237,189,48,7.3
+two_pointers,219,175,44,6.7
+breadth_first_search,203,162,41,6.2
+tree,200,160,40,6.1

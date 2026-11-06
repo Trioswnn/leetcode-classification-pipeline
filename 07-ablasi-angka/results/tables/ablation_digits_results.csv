@@ -1,0 +1,7 @@
+variant,target,C,threshold,cv_macro_f1_mean,cv_macro_f1_std,test_macro_f1,n_features,test_accuracy,test_micro_f1,test_hamming
+clean,difficulty,1.0,,0.5008,0.0164,0.4955,10000,0.5069,,
+digits,difficulty,1.0,,0.545,0.0116,0.5457,10000,0.553,,
+digits_only,difficulty,1.0,,0.4947,0.0238,0.4592,2271,0.4608,,
+clean,topic,10.0,0.4,0.5969,0.0093,0.6261,10000,,0.6818,0.1049
+digits,topic,10.0,0.45,0.5969,0.0103,0.6251,10000,,0.6884,0.0978
+digits_only,topic,1.0,0.5,0.3416,0.0068,0.3586,2271,,0.4205,0.2636

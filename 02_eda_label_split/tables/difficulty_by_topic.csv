@@ -1,0 +1,17 @@
+topic,n,Easy_%,Medium_%,Hard_%
+Array,1909.0,21.2,52.3,26.5
+String,767.0,29.9,47.8,22.3
+Hash Table,703.0,24.2,55.6,20.2
+Math,609.0,26.4,46.3,27.3
+Dynamic Programming,594.0,2.2,46.6,51.2
+Sorting,459.0,19.4,57.1,23.5
+Greedy,432.0,11.3,67.4,21.3
+Binary Search,297.0,8.8,52.2,39.1
+Depth-First Search,263.0,13.3,56.7,30.0
+Bit Manipulation,259.0,19.3,42.9,37.8
+Prefix Sum,243.0,9.1,60.1,30.9
+Matrix,237.0,16.5,56.5,27.0
+Two Pointers,219.0,28.8,57.1,14.2
+Breadth-First Search,203.0,9.4,61.1,29.6
+Tree,200.0,18.0,55.0,27.0
+(all problems),3256.0,25.6,50.5,23.9

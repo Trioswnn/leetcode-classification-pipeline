@@ -1,0 +1,41 @@
+{
+  "n_rows": 3256,
+  "text_view": "text_light (digits, symbols, case and stopwords preserved)",
+  "fine_tuning": false,
+  "sbert": {
+    "model": "BAAI/bge-small-en-v1.5",
+    "max_seq_length": 512,
+    "dim": 384,
+    "pooling": "model default (CLS for bge-small), L2-normalized"
+  },
+  "codebert": {
+    "model": "microsoft/codebert-base",
+    "max_seq_length": 512,
+    "dim": 768,
+    "pooling": "mean of last hidden state with attention mask (not normalized)"
+  },
+  "truncation": {
+    "sbert": {
+      "model": "BAAI/bge-small-en-v1.5",
+      "max_len": 512,
+      "tokens_mean": 383.0,
+      "tokens_median": 342.0,
+      "tokens_p95": 758.25,
+      "tokens_max": 1935,
+      "problems_truncated_n": 633,
+      "problems_truncated_%": 19.44,
+      "tokens_lost_%": 9.58
+    },
+    "codebert": {
+      "model": "microsoft/codebert-base",
+      "max_len": 512,
+      "tokens_mean": 352.1,
+      "tokens_median": 319.0,
+      "tokens_p95": 659.5,
+      "tokens_max": 1572,
+      "problems_truncated_n": 464,
+      "problems_truncated_%": 14.25,
+      "tokens_lost_%": 6.09
+    }
+  }
+}

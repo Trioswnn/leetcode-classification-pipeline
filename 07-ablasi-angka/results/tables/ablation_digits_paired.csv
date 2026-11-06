@@ -1,0 +1,5 @@
+target,variant_vs_clean,delta_cv_mean,folds_better,delta_test,delta_test_ci_low,delta_test_ci_high,ci_excludes_0
+difficulty,digits,0.0442,5/5,0.0501,0.0187,0.0821,True
+difficulty,digits_only,-0.0061,1/5,-0.0363,-0.0943,0.0155,False
+topic,digits,0.0,2/5,-0.001,-0.0154,0.013,False
+topic,digits_only,-0.2552,0/5,-0.2675,-0.2943,-0.2407,True

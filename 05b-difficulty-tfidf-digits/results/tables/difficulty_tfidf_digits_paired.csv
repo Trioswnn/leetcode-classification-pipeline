@@ -1,0 +1,4 @@
+new,vs_old_best,delta_test,ci_low,ci_high,ci_excludes_0
+tfidf_digits x logreg,codebert x mlp,0.0365,-0.009,0.0803,False
+tfidf_digits x rf,codebert x mlp,0.0392,-0.0055,0.0851,False
+tfidf_digits x mlp,codebert x mlp,0.0307,-0.0164,0.0777,False

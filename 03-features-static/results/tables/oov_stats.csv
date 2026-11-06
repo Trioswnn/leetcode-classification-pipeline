@@ -1,0 +1,6 @@
+,GloVe,FastText (word vocab)
+token_oov_rate_%,7.52,2.79
+type_oov_rate_%,24.55,21.71
+docs_all_oov,0.0,0.0
+doc_oov_mean_%,8.07,2.32
+doc_oov_max_%,72.73,53.97

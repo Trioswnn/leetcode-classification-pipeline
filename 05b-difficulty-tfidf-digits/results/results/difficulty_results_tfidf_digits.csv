@@ -1,0 +1,4 @@
+rep,model,best_params,cv_macro_f1_oof,cv_macro_f1_mean,cv_macro_f1_std,cv_accuracy_mean,test_accuracy,test_macro_precision,test_macro_recall,test_macro_f1,test_weighted_f1,seconds
+tfidf_digits,logreg,"{""C"": 1.0}",0.5444,0.5441,0.0123,0.5516,0.5484,0.5341,0.5478,0.5395,0.5499,29.9
+tfidf_digits,rf,"{""n_estimators"": 400, ""max_depth"": 40, ""min_samples_leaf"": 2, ""max_features"": ""sqrt""}",0.5441,0.544,0.0063,0.6084,0.6022,0.5976,0.5412,0.5423,0.5784,395.9
+tfidf_digits,mlp,"{""lr"": 0.0003, ""weight_decay"": 0.01, ""epochs"": 60}",0.5255,0.5249,0.0118,0.5394,0.5484,0.5304,0.5382,0.5338,0.5478,82.7

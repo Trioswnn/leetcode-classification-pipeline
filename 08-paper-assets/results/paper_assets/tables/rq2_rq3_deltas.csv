@@ -1,0 +1,13 @@
+task,comparison,model,delta_CV,delta_test,same_sign_all_models
+topic,RQ2 FastText - GloVe,LogReg,0.0123,0.0002,True
+topic,RQ2 FastText - GloVe,RF,0.0108,0.0186,True
+topic,RQ2 FastText - GloVe,MLP,0.0057,0.0044,True
+topic,RQ3 CodeBERT - bge-small,LogReg,0.0025,-0.0202,False
+topic,RQ3 CodeBERT - bge-small,RF,-0.0534,-0.0471,False
+topic,RQ3 CodeBERT - bge-small,MLP,-0.0159,0.0077,False
+difficulty,RQ2 FastText - GloVe,LogReg,-0.0103,0.0079,False
+difficulty,RQ2 FastText - GloVe,RF,-0.012,0.0079,False
+difficulty,RQ2 FastText - GloVe,MLP,0.0032,0.0066,False
+difficulty,RQ3 CodeBERT - bge-small,LogReg,0.0303,0.0256,True
+difficulty,RQ3 CodeBERT - bge-small,RF,0.06,0.0672,True
+difficulty,RQ3 CodeBERT - bge-small,MLP,0.0417,0.0064,True

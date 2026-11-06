@@ -1,0 +1,7 @@
+target,variant,n_features,cv_macro_f1_mean,cv_macro_f1_std,test_macro_f1
+difficulty,clean,10000,0.501,0.016,0.496
+difficulty,digits,10000,0.545,0.012,0.546
+difficulty,digits_only,2271,0.495,0.024,0.459
+topic,clean,10000,0.597,0.009,0.626
+topic,digits,10000,0.597,0.01,0.625
+topic,digits_only,2271,0.342,0.007,0.359

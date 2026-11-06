@@ -1,0 +1,77 @@
+{
+  "topic_best": {
+    "rep": "tfidf",
+    "model": "logreg",
+    "cv_macro_f1": 0.5979,
+    "test_macro_f1": 0.6234,
+    "test_micro_f1": 0.6805,
+    "test_hamming": 0.1054,
+    "ci": [
+      0.597,
+      0.6446
+    ],
+    "threshold": 0.4
+  },
+  "topic_baseline": {
+    "macro_f1": 0.15286735511722455,
+    "micro_f1": 0.264419945038231,
+    "hamming": 0.2227813620071685
+  },
+  "difficulty_best": {
+    "rep": "tfidf_digits",
+    "model": "logreg",
+    "cv_macro_f1": 0.5441,
+    "test_macro_f1": 0.5395,
+    "test_accuracy": 0.5484,
+    "ci": [
+      0.5011,
+      0.5769
+    ]
+  },
+  "difficulty_baseline": {
+    "accuracy": 0.3796,
+    "macro_precision": 0.3358,
+    "macro_recall": 0.3359,
+    "macro_f1": 0.3355,
+    "weighted_f1": 0.3794
+  },
+  "rq4": [
+    {
+      "task": "topic",
+      "best_model": "TF-IDF x LogReg",
+      "CV_macro_f1": 0.5979,
+      "test_macro_f1": 0.6234,
+      "random_baseline": 0.1529,
+      "skill_test": 0.555
+    },
+    {
+      "task": "difficulty",
+      "best_model": "TF-IDF+digits x LogReg",
+      "CV_macro_f1": 0.5441,
+      "test_macro_f1": 0.5395,
+      "random_baseline": 0.3355,
+      "skill_test": 0.307
+    }
+  ],
+  "dataset": {
+    "n_problems": 3256,
+    "n_labels": 15,
+    "label_cardinality": 2.271,
+    "label_density": 0.151,
+    "n_all_zero_rows": 233,
+    "pct_all_zero_rows": 7.16,
+    "n_train": 2605,
+    "n_test": 651
+  },
+  "topic_hardest": [
+    "prefix_sum",
+    "binary_search",
+    "two_pointers"
+  ],
+  "topic_easiest": [
+    "array",
+    "tree",
+    "string"
+  ],
+  "easy_hard_confusion_pct": 4.61
+}

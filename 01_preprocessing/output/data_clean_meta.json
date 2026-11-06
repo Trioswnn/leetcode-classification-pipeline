@@ -1,0 +1,26 @@
+{
+  "scrape_date": "2026-09-10",
+  "n_raw": 4047,
+  "n_premium": 783,
+  "n_used": 3256,
+  "extra_stopwords": [
+    "constraints",
+    "example",
+    "explanation",
+    "follow",
+    "function",
+    "given",
+    "input",
+    "note",
+    "output",
+    "return",
+    "write"
+  ],
+  "difficulty_counts": {
+    "Medium": 1645,
+    "Easy": 833,
+    "Hard": 778
+  },
+  "tokens_before_mean": 175.8,
+  "tokens_after_mean": 81.4
+}

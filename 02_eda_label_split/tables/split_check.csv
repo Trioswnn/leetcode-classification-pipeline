@@ -1,0 +1,20 @@
+,train_%,test_%,abs_diff
+Easy,25.6,25.5,0.1
+Medium,50.5,50.5,0.0
+Hard,23.9,24.0,0.1
+Array,58.6,58.7,0.1
+String,23.5,23.7,0.2
+Hash Table,21.6,21.7,0.1
+Math,18.7,18.7,0.0
+Dynamic Programming,18.2,18.3,0.1
+Sorting,14.1,14.1,0.0
+Greedy,13.3,13.2,0.1
+Binary Search,9.1,9.2,0.1
+Depth-First Search,8.1,8.0,0.1
+Bit Manipulation,7.9,8.0,0.1
+Prefix Sum,7.4,7.5,0.1
+Matrix,7.3,7.4,0.1
+Two Pointers,6.7,6.8,0.1
+Breadth-First Search,6.2,6.3,0.1
+Tree,6.1,6.1,0.0
+(all-zero),7.1,7.2,0.1

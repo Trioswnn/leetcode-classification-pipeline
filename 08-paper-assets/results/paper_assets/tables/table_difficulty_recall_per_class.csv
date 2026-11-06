@@ -1,0 +1,3 @@
+model,recall_Easy,recall_Medium,recall_Hard
+CodeBERT + MLP,0.494,0.596,0.41
+TF-IDF+digits + LogReg,0.596,0.547,0.5
